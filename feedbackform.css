@@ -1,0 +1,103 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: white;
+}
+#centercontainer{
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+#feedbackformdiv{
+    padding: 5%;
+    margin: 10px;
+   
+    
+}
+#feedbackform{
+    
+}
+
+#feedbackheader{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7%;
+    background-color: #3366ff;
+    margin:0;
+    
+   
+}
+#feedback{
+    
+    width: 65%;
+    margin: auto;
+    
+}
+#bannerimage{
+    background-image: url(/daythree/beach-image.jpg);
+    height: 15%;
+    background-color: gray;
+    background-blend-mode: multiply;
+    width: 80%;
+    margin:auto;
+}
+
+.input{
+    width: 98%;
+    min-height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-size: 16px;
+    display:block;
+    
+}
+#suggestion{
+    min-height: 100px;
+}
+#improvement{
+    display: inline-grid;
+    margin:10px;
+}
+.improvementlabel{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#radiobuttons{
+    margin:1%;
+}
+.formlabel{
+    font-size: 16px;
+    width:100%;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#3366ff;
+    margin: 5px;
+    
+}
+#buttonsubmit{
+position: absolute;
+left:50%;
+width: 25%;
+transform: translate(-50%);
+}
+#submitbutton{
+    
+    margin: auto;
+    width: 100%;
+    min-height: 30px;
+    color:white;
+    background-color: #3366ff;
+    border-radius: 30px;
+    border-color: #3366ff;
+    padding:10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* left: 50%; */
+}

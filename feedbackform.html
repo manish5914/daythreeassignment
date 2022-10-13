@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedbackform.css">
+
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- <div id = "bannerimage">
+        <div id = "feedbackheader">Feedback Form</div>
+    </div> -->
+    <div id = "feedbackheader">Feedback Form</div>
+    <div id="centercontainer">
+        <div id = "feedback">
+            
+            <div id = feedbackformdiv>
+                <form class = "feedbackform">
+                    <label id = "nameheader" for="name" class ="formlabel">Your Name: </label>
+                    <input type = "text" id = "name" name = "name" class = "input" value="  Enter your name">
+                    <label id = "emailheader" for="email" class ="formlabel">Your email: </label>
+                    <input type = "text" id = "email" name = "email" class="input" value="  Enter your email">
+                    <label id = "departmentchoice" for="department" class ="formlabel">Choose your department</label>
+                    <select name = "department" id = "department" class="input">
+                        <option value="p&t">Product and Testing</option>
+                        <option value="customersupport">Customer Support</option>
+                        <option value="hr">Human Resources</option>
+                    </select>
+
+                    <label id = "experience" for = "experience" class ="formlabel">Rate your Experience</label>
+                    <div id="radiobuttons">
+                        <input type ="radio" id = "1" name = "experience" value ="1">
+                        <label for="1" class ="formlabel">1</label>
+                        <input type ="radio" id = "2" name = "experience" value ="2">
+                        <label for="2"class ="formlabel">2</label>
+                        <input type ="radio" id = "3" name = "experience" value ="3">
+                        <label for="3"class ="formlabel">3</label>
+                        <input type ="radio" id = "4" name = "experience" value ="4">
+                        <label for="4"class ="formlabel">4</label>
+                        <input type ="radio" id = "5" name = "experience" value ="5">
+                        <label for="5"class ="formlabel">5</label>
+                    </div>
+ 
+                    <label for="improvement" id ="improvement" class ="formlabel">Select Improvement</label>
+                    
+                    <div id = "improvement">
+                        <div class="improvementoption">
+                            <input type="checkbox" id = "suggestion1" name="suggestion1" value="morelab">
+                            <label for = "suggestion1" class="improvementlabel">More Labs/Assignments</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id = "suggestion2" name = "suggestion2" value="moreselflearning">
+                            <label for="suggestion2" class ="improvementlabel">More Self Learning</label> 
+                        </div>
+                        <div>
+                            <input type="checkbox" id = "suggestion3" name = "suggestion3" value="morefood">
+                            <label for="suggestion3" class ="improvementlabel" >More Food</label> 
+                        </div>
+                        <div>
+                            <input type="checkbox" id = "suggestion4" name = "suggestion4" value="morecomplex">
+                            <label for="suggestion4" class ="improvementlabel" >More Complex Training Sessions</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id = "suggestion5" name = "suggestion5" value="lesscomplex">
+                            <label for="suggestion5" class ="improvementlabel" >Less Complex Training Sessions</label> 
+                        </div>
+                       
+                    </div>
+                    <div>
+                        <label id="suggestionheader" class="formlabel">Enter a Suggestion or Comments</label>
+                        <input id = "suggestion" type="text" class = "input" name = "suggestion" value ="">
+
+                    </div>
+                    <div id="buttonsubmit">
+                        <input id = "submitbutton" type ="submit" value="Submit">
+                    </div>
+                    
+                    
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
