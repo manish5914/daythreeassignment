@@ -16,10 +16,14 @@ body{
    
     
 }
-#feedbackform{
-    
+.radiooption{
+    font-size: 14px;
+    width:100%;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#000000;
+    margin: 5px;
 }
-
 #feedbackheader{
     text-align: center;
     color: white;
@@ -49,7 +53,7 @@ body{
 .input{
     width: 98%;
     min-height: 30px;
-    border: 1px solid black;
+    border: 1px solid rgb(175, 175, 175);
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom:10px;
